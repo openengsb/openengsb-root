@@ -229,6 +229,11 @@
       <email>ch.karner [at] gmail.com</email>
       <timezone>+1</timezone>
     </contributor>
+    <contributor>
+      <name>Peter Fruehwirt</name>
+      <email>peter.fruehwirt [at] qse.ifs.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+    </contributor>
   </contributors>
 
   <build>

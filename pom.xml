@@ -69,9 +69,8 @@
       <timezone>+1</timezone>
       <roles>
         <role>Project Lead</role>
-        <role>Developer</role>
-        <role>Release Manager</role>
-        <role>Administrator</role>
+        <role>Commiter</role>
+        <role>PMC</role>
       </roles>
     </developer>
     <developer>
@@ -80,8 +79,8 @@
       <email>michael.handler [at] fullstop.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
-        <role>Release Manager</role>
+        <role>Commiter</role>
+        <role>PMC</role>
       </roles>
     </developer>
     <developer>
@@ -90,9 +89,8 @@
       <email>e0525747 [at] student.tuwien.ac.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
-        <role>Release Manager</role>
-        <role>Administrator</role>
+        <role>Commiter</role>
+        <role>PMC</role>
       </roles>
     </developer>
     <developer>
@@ -101,7 +99,7 @@
       <email>zoech [at] qse.ifs.tuwien.ac.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
+        <role>Commiter</role>
       </roles>
     </developer>
     <developer>
@@ -110,7 +108,7 @@
       <email>philipp.hoenisch [at] gmail.com</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
+        <role>Commiter</role>
       </roles>
     </developer>
     <developer>
@@ -119,7 +117,7 @@
       <email>tobster [at] gmx.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
+        <role>Commiter</role>
       </roles>
     </developer>
     <developer>
@@ -128,8 +126,7 @@
       <email>flomotlik [at] gmail.com</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
-        <role>Release Manager</role>
+        <role>Commiter</role>
       </roles>
     </developer>
     <developer>
@@ -138,7 +135,7 @@
       <email>michael.heil [at] chello.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Developer</role>
+        <role>Commiter</role>
       </roles>
     </developer>
   </developers>

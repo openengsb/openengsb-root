@@ -63,12 +63,11 @@
 
   <developers>
     <developer>
-      <id>api</id>
-      <name>Andreas Pieber</name>
-      <email>andreas.pieber [at] ifs.tuwien.ac.at</email>
+      <id>cgr</id>
+      <name>Christoph Gritschenberger</name>
+      <email>e0525747 [at] student.tuwien.ac.at</email>
       <timezone>+1</timezone>
       <roles>
-        <role>Project Lead</role>
         <role>Commiter</role>
         <role>PMC</role>
       </roles>
@@ -84,28 +83,9 @@
       </roles>
     </developer>
     <developer>
-      <id>cgr</id>
-      <name>Christoph Gritschenberger</name>
-      <email>e0525747 [at] student.tuwien.ac.at</email>
-      <timezone>+1</timezone>
-      <roles>
-        <role>Commiter</role>
-        <role>PMC</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>mzo</id>
-      <name>Michael Zoech</name>
-      <email>zoech [at] qse.ifs.tuwien.ac.at</email>
-      <timezone>+1</timezone>
-      <roles>
-        <role>Commiter</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>pho</id>
-      <name>Philipp Hoenisch</name>
-      <email>philipp.hoenisch [at] gmail.com</email>
+      <id>mhe</id>
+      <name>Michael Heil</name>
+      <email>michael.heil [at] chello.at</email>
       <timezone>+1</timezone>
       <roles>
         <role>Commiter</role>
@@ -121,6 +101,15 @@
       </roles>
     </developer>
     <developer>
+      <id>pho</id>
+      <name>Philipp Hoenisch</name>
+      <email>philipp.hoenisch [at] gmail.com</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+      </roles>
+    </developer>
+    <developer>
       <id>fmo</id>
       <name>Florian Motlik</name>
       <email>flomotlik [at] gmail.com</email>
@@ -130,9 +119,28 @@
       </roles>
     </developer>
     <developer>
-      <id>mhe</id>
-      <name>Michael Heil</name>
-      <email>michael.heil [at] chello.at</email>
+      <id>api</id>
+      <name>Andreas Pieber</name>
+      <email>andreas.pieber [at] ifs.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+        <role>PMC</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>esz</id>
+      <name>Eduard Szente</name>
+      <email>eduard.szente [at] gmail.com</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>mzo</id>
+      <name>Michael Zoech</name>
+      <email>zoech [at] qse.ifs.tuwien.ac.at</email>
       <timezone>+1</timezone>
       <roles>
         <role>Commiter</role>
@@ -142,63 +150,8 @@
 
   <contributors>
     <contributor>
-      <name>Patrick Peer</name>
-      <email>e0326352 [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Christoph Zehetner</name>
-      <email>christoph.zehetner [at] gmx.at</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Alexander Pucher</name>
-      <email>engsb [at] alexander-pucher.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>David Waldhans</name>
-      <email>david [at] waldhans.at</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Lukas Puschmann</name>
-      <email>lukas.puschmann [at] gmx.at</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
       <name>Johannes Binder</name>
       <email>j.binder.x [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Gernot Rumpold</name>
-      <email>gernot.rumpold [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Florian Waltersdorfer</name>
-      <email>ignatiomobius [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Christoph Leiter</name>
-      <email>openengsb [at] christophleiter.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Kristof Meixner</name>
-      <email>kristof.meixner [at] fatlenny.net</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Lukas Stampf</name>
-      <email>lukas.stampf [at] gmx.at</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Gregor Ryba</name>
-      <email>gregor.ryba [at] infor.com</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>
@@ -207,8 +160,8 @@
       <timezone>+1</timezone>
     </contributor>
     <contributor>
-      <name>Ioanna Lytra</name>
-      <email>jlytra [at] gmail.com</email>
+      <name>Peter Fruehwirt</name>
+      <email>peter.fruehwirt [at] qse.ifs.tuwien.ac.at</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>
@@ -217,18 +170,83 @@
       <timezone>+1</timezone>
     </contributor>
     <contributor>
-      <name>Eduard Szente</name>
-      <email>eduard.szente [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
       <name>Christoph Karner</name>
       <email>ch.karner [at] gmail.com</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>
-      <name>Peter Fruehwirt</name>
-      <email>peter.fruehwirt [at] qse.ifs.tuwien.ac.at</email>
+      <name>Christoph Leiter</name>
+      <email>openengsb [at] christophleiter.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Ioanna Lytra</name>
+      <email>jlytra [at] gmail.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Kristof Meixner</name>
+      <email>kristof.meixner [at] fatlenny.net</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Richard Mordinyi</name>
+      <email>richard [at] complang.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Patrick Peer</name>
+      <email>e0326352 [at] gmail.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Michael Petritsch</name>
+      <email>michael.petritsch [at] gmail.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Alexander Pucher</name>
+      <email>engsb [at] alexander-pucher.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Lukas Puschmann</name>
+      <email>lukas.puschmann [at] gmx.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Gernot Rumpold</name>
+      <email>gernot.rumpold [at] gmail.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Gregor Ryba</name>
+      <email>gregor.ryba [at] infor.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Alexander Schatten</name>
+      <email>schatten [at] ifs.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Lukas Stampf</name>
+      <email>lukas.stampf [at] gmx.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>David Waldhans</name>
+      <email>david [at] waldhans.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Florian Waltersdorfer</name>
+      <email>ignatiomobius [at] gmail.com</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Christoph Zehetner</name>
+      <email>christoph.zehetner [at] gmx.at</email>
       <timezone>+1</timezone>
     </contributor>
   </contributors>

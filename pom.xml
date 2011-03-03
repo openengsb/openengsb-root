@@ -110,6 +110,15 @@
       </roles>
     </developer>
     <developer>
+      <id>cka</id>
+      <name>Christoph Karner</name>
+      <email>ch.karner [at] gmail.com</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+      </roles>
+    </developer>
+    <developer>
       <id>fmo</id>
       <name>Florian Motlik</name>
       <email>flomotlik [at] gmail.com</email>
@@ -167,11 +176,6 @@
     <contributor>
       <name>Petr Horinek</name>
       <email>horinek.petr [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Christoph Karner</name>
-      <email>ch.karner [at] gmail.com</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>

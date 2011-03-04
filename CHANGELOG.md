@@ -1,3 +1,24 @@
+openengsb-root-9 2011-03-04
+--------------------------------------------
+
+Updated team information and upgraded some versions
+
+### Highlights
+
+### Details
+
+** Improvement
+    * [OPENENGSB-1044] - Use github/jira id for commiter on team page
+
+** Task
+    * [OPENENGSB-981] - release openengsb-root-9
+    * [OPENENGSB-990] - change license in all files to "vereinslicense"
+    * [OPENENGSB-1022] - Add Christoph Karner as commiter
+    * [OPENENGSB-1023] - Add Roland Bair as contributor
+    * [OPENENGSB-1024] - Add thomas moser as contributor
+    * [OPENENGSB-1038] - Move maven notice plugin version to openengsb-root
+
+
 openengsb-root-8 2011-02-23
 --------------------------------------------
 

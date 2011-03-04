@@ -63,7 +63,7 @@
 
   <developers>
     <developer>
-      <id>cgr</id>
+      <id>ChristophGr</id>
       <name>Christoph Gritschenberger</name>
       <email>e0525747 [at] student.tuwien.ac.at</email>
       <timezone>+1</timezone>
@@ -73,7 +73,7 @@
       </roles>
     </developer>
     <developer>
-      <id>mha</id>
+      <id>mhandler</id>
       <name>Michael Handler</name>
       <email>michael.handler [at] fullstop.at</email>
       <timezone>+1</timezone>
@@ -83,7 +83,7 @@
       </roles>
     </developer>
     <developer>
-      <id>mhe</id>
+      <id>Turantul</id>
       <name>Michael Heil</name>
       <email>michael.heil [at] chello.at</email>
       <timezone>+1</timezone>
@@ -92,7 +92,7 @@
       </roles>
     </developer>
     <developer>
-      <id>tho</id>
+      <id>tobster</id>
       <name>Tobias Hochwallner</name>
       <email>tobster [at] gmx.at</email>
       <timezone>+1</timezone>
@@ -101,7 +101,7 @@
       </roles>
     </developer>
     <developer>
-      <id>pho</id>
+      <id>bonomat</id>
       <name>Philipp Hoenisch</name>
       <email>philipp.hoenisch [at] gmail.com</email>
       <timezone>+1</timezone>
@@ -110,7 +110,7 @@
       </roles>
     </developer>
     <developer>
-      <id>cka</id>
+      <id>chKarner</id>
       <name>Christoph Karner</name>
       <email>ch.karner [at] gmail.com</email>
       <timezone>+1</timezone>
@@ -119,7 +119,7 @@
       </roles>
     </developer>
     <developer>
-      <id>fmo</id>
+      <id>flomotlik</id>
       <name>Florian Motlik</name>
       <email>flomotlik [at] gmail.com</email>
       <timezone>+1</timezone>
@@ -128,7 +128,7 @@
       </roles>
     </developer>
     <developer>
-      <id>api</id>
+      <id>pieber</id>
       <name>Andreas Pieber</name>
       <email>andreas.pieber [at] ifs.tuwien.ac.at</email>
       <timezone>+1</timezone>
@@ -147,7 +147,7 @@
       </roles>
     </developer>
     <developer>
-      <id>mzo</id>
+      <id>crazymaik</id>
       <name>Michael Zoech</name>
       <email>zoech [at] qse.ifs.tuwien.ac.at</email>
       <timezone>+1</timezone>

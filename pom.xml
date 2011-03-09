@@ -568,6 +568,13 @@
       <id>sonatype.pax</id>
       <url>https://oss.sonatype.org/content/groups/ops4j-with-staging/</url>
     </repository>
+    <repository> <!-- JIRA -->
+      <id>jira</id>
+      <url>https://maven.atlassian.com/content/repositories/atlassian-contrib/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
 </project>

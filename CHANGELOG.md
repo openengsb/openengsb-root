@@ -1,3 +1,14 @@
+openengsb-root-11 2011-03-09
+Add atlassian-repository
+
+### Highlights
+
+### Details
+
+Task
+[OPENENGSB-1095] - add jira-repository to openengsb-root-pom
+[OPENENGSB-1096] - Release openengsb-root-11
+
 openengsb-root-10 2011-03-09
 --------------------------------------------
 

@@ -1,3 +1,22 @@
+openengsb-root-10 2011-03-09
+--------------------------------------------
+
+Added openengsb-maven-plugin directly in the root plugin (and upgraded it to the latest version)
+
+### Highlights
+
+### Details
+
+** Library Upgrade
+    * [OPENENGSB-1090] - upgrade to openengsb-maven-plugin 1.3.1
+
+** Task
+    * [OPENENGSB-1059] - release openengsb-root-10
+    * [OPENENGSB-1060] - add openengsb-maven-plugin version to openengsb-root
+    * [OPENENGSB-1066] - Add openengsb-maven-plugin to openengsb-root
+    * [OPENENGSB-1067] - errors in the license
+
+
 openengsb-root-9 2011-03-04
 --------------------------------------------
 

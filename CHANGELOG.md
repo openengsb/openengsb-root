@@ -1,4 +1,26 @@
+openengsb-root-12 2011-03-23
+-------------------------------------------
+Upgrade various libraries
+
+### Highlights
+
+### Details
+** Bug
+    * [OPENENGSB-1119] - Eclipse Checkstyle configuration has a bug
+
+** Library Upgrade
+    * [OPENENGSB-1150] - upgrade to openengsb-maven-plugin 1.3.2 stable
+    * [OPENENGSB-1156] - Upgrad maven-assembly-plugin to 2.2.1
+    * [OPENENGSB-1157] - Upgrade maven-resources-plugin to 2.5
+    * [OPENENGSB-1158] - Upgrade maven-surefire-plugin to 2.8
+    * [OPENENGSB-1159] - Upgrade maven-surefire-report-plugin to 2.8
+
+** Task
+    * [OPENENGSB-1107] - Release openengsb-root-12
+    * [OPENENGSB-1140] - Add Felix Mayerhuber as contributor
+
 openengsb-root-11 2011-03-09
+-------------------------------------------
 Add atlassian-repository
 
 ### Highlights

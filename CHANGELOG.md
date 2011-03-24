@@ -1,3 +1,17 @@
+openengsb-root-13 2011-03-24
+-------------------------------------------
+Upgrade to latest openengsb-maven-plugin
+
+### Highlights
+
+### Details
+
+** Library Upgrade
+    * [OPENENGSB-1150] - upgrade to openengsb-maven-plugin 1.3.3 stable
+
+** Task
+    * [OPENENGSB-1155] - Release openengsb-root-13
+
 openengsb-root-12 2011-03-23
 -------------------------------------------
 Upgrade various libraries
@@ -27,9 +41,9 @@ Add atlassian-repository
 
 ### Details
 
-Task
-[OPENENGSB-1095] - add jira-repository to openengsb-root-pom
-[OPENENGSB-1096] - Release openengsb-root-11
+** Task
+    * [OPENENGSB-1095] - add jira-repository to openengsb-root-pom
+    * [OPENENGSB-1096] - Release openengsb-root-11
 
 openengsb-root-10 2011-03-09
 --------------------------------------------

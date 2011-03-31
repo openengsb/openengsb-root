@@ -181,6 +181,11 @@
       <timezone>+1</timezone>
     </contributor>
     <contributor>
+      <name>Michael Gissing</name>
+      <email>michael.gissing [at] gmx.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
       <name>Petr Horinek</name>
       <email>horinek.petr [at] gmail.com</email>
       <timezone>+1</timezone>
@@ -261,6 +266,11 @@
       <timezone>+1</timezone>
     </contributor>
     <contributor>
+      <name>Fabian Souczek</name>
+      <email>e0728541 [at] student.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
       <name>David Waldhans</name>
       <email>david [at] waldhans.at</email>
       <timezone>+1</timezone>
@@ -273,6 +283,11 @@
     <contributor>
       <name>Christoph Zehetner</name>
       <email>christoph.zehetner [at] gmx.at</email>
+      <timezone>+1</timezone>
+    </contributor>
+    <contributor>
+      <name>Peter Zimmermann</name>
+      <email>e0828244 [at] student.tuwien.ac.at</email>
       <timezone>+1</timezone>
     </contributor>
   </contributors>

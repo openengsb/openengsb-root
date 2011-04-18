@@ -1,3 +1,19 @@
+openengsb-root-14 2011-04-18
+-------------------------------------------
+Upgrade various plugins and contributor
+
+### Highlights
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-1281] - Upgrade to openengsb-maven-plugin 1.4.0
+    * [OPENENGSB-1304] - upgrade maven-surefire-plugin to 2.8.1
+    * [OPENENGSB-1305] - upgrade maven-surefire-report-plugin to 2.8.1
+
+** Task
+    * [OPENENGSB-1190] - Add Fabian, Michael and Peter to contributor
+    * [OPENENGSB-1282] - Release openengsb-root-14
+
 openengsb-root-13 2011-03-24
 -------------------------------------------
 Upgrade to latest openengsb-maven-plugin

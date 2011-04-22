@@ -121,6 +121,14 @@
       </roles>
     </developer>
     <developer>
+      <name>Felix Mayerhuber</name>
+      <email>felix.mayerhuber [at] gmx.at</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+      </roles>
+    </developer>
+    <developer>
       <id>flomotlik</id>
       <name>Florian Motlik</name>
       <email>flomotlik [at] gmail.com</email>
@@ -198,11 +206,6 @@
     <contributor>
       <name>Ioanna Lytra</name>
       <email>jlytra [at] gmail.com</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Felix Mayerhuber</name>
-      <email>felix.mayerhuber [at] gmx.at</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>

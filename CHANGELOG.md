@@ -1,3 +1,17 @@
+openengsb-root-15 2011-04-22
+-------------------------------------------
+Upgrade various plugins and contributor
+
+### Highlights
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-1332] - Upgrade to openengsb-maven-plugin-1.4.1
+
+** Task
+    * [OPENENGSB-1306] - Release openengsb-root-15
+    * [OPENENGSB-1328] - Add Felix Mayerhuber as commiter
+
 openengsb-root-14 2011-04-18
 -------------------------------------------
 Upgrade various plugins and contributor

@@ -121,6 +121,7 @@
       </roles>
     </developer>
     <developer>
+      <id>Arcticwolf</id>
       <name>Felix Mayerhuber</name>
       <email>felix.mayerhuber [at] gmx.at</email>
       <timezone>+1</timezone>

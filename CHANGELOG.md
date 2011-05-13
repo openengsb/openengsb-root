@@ -13,6 +13,7 @@ Upgrade various plugins and contributor
 ** Task
     * [OPENENGSB-1364] - release openengsb-root-16
     * [OPENENGSB-1554] - Add Stefan Dösinger as Contributor
+    * [OPENENGSB-1558] - Add license to root folder of openengsb-root
 
 
 openengsb-root-15 2011-04-22

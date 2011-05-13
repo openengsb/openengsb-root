@@ -1,8 +1,24 @@
-openengsb-root-15 2011-04-22
+openengsb-root-16 2011-05-13
 -------------------------------------------
+
 Upgrade various plugins and contributor
 
-### Highlights
+### Details
+** Bug
+    * [OPENENGSB-1539] - Felix Mayerhuber in commiter section does not have an ID
+
+** Library Upgrade
+    * [OPENENGSB-1557] - Upgrade maven-javadoc-plugin to 2.8
+
+** Task
+    * [OPENENGSB-1364] - release openengsb-root-16
+    * [OPENENGSB-1554] - Add Stefan Dösinger as Contributor
+
+
+openengsb-root-15 2011-04-22
+-------------------------------------------
+
+Upgrade various plugins and contributor
 
 ### Details
 ** Library Upgrade

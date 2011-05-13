@@ -28,11 +28,11 @@ Upgrade various plugins and contributor
     * [OPENENGSB-1306] - Release openengsb-root-15
     * [OPENENGSB-1328] - Add Felix Mayerhuber as commiter
 
+
 openengsb-root-14 2011-04-18
 -------------------------------------------
-Upgrade various plugins and contributor
 
-### Highlights
+Upgrade various plugins and contributor
 
 ### Details
 ** Library Upgrade
@@ -44,11 +44,11 @@ Upgrade various plugins and contributor
     * [OPENENGSB-1190] - Add Fabian, Michael and Peter to contributor
     * [OPENENGSB-1282] - Release openengsb-root-14
 
+
 openengsb-root-13 2011-03-24
 -------------------------------------------
-Upgrade to latest openengsb-maven-plugin
 
-### Highlights
+Upgrade to latest openengsb-maven-plugin
 
 ### Details
 
@@ -58,11 +58,11 @@ Upgrade to latest openengsb-maven-plugin
 ** Task
     * [OPENENGSB-1155] - Release openengsb-root-13
 
+
 openengsb-root-12 2011-03-23
 -------------------------------------------
-Upgrade various libraries
 
-### Highlights
+Upgrade various libraries
 
 ### Details
 ** Bug
@@ -79,27 +79,24 @@ Upgrade various libraries
     * [OPENENGSB-1107] - Release openengsb-root-12
     * [OPENENGSB-1140] - Add Felix Mayerhuber as contributor
 
+
 openengsb-root-11 2011-03-09
 -------------------------------------------
+
 Add atlassian-repository
 
-### Highlights
-
 ### Details
-
 ** Task
     * [OPENENGSB-1095] - add jira-repository to openengsb-root-pom
     * [OPENENGSB-1096] - Release openengsb-root-11
+
 
 openengsb-root-10 2011-03-09
 --------------------------------------------
 
 Added openengsb-maven-plugin directly in the root plugin (and upgraded it to the latest version)
 
-### Highlights
-
 ### Details
-
 ** Library Upgrade
     * [OPENENGSB-1090] - upgrade to openengsb-maven-plugin 1.3.1
 
@@ -115,10 +112,7 @@ openengsb-root-9 2011-03-04
 
 Updated team information and upgraded some versions
 
-### Highlights
-
 ### Details
-
 ** Improvement
     * [OPENENGSB-1044] - Use github/jira id for commiter on team page
 
@@ -135,8 +129,6 @@ openengsb-root-8 2011-02-23
 --------------------------------------------
 
 Only some contributor and minor library upgrades
-
-### Highlights
 
 ### Details
 ** Library Upgrade

@@ -1,3 +1,15 @@
+openengsb-root-17 2011-05-16
+-------------------------------------------
+
+Fixed eclipse plugin bug
+
+** Bug
+    * [OPENENGSB-1584] - eclipse-plugin 1.8 has problems with filer/non-filter in resources
+
+** Task
+    * [OPENENGSB-1559] - Releaes openengsb-root-17
+
+
 openengsb-root-16 2011-05-13
 -------------------------------------------
 

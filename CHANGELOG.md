@@ -1,3 +1,27 @@
+openengsb-root-18 2011-06-18
+-------------------------------------------
+
+Minor release updating various plugins, including a new version of the openengsb-maven-plugin (1.4.2) fixing problems
+in various goals. In addition the contributor/commiter list had been updated.
+
+** Bug
+    * [OPENENGSB-1691] - Stefan Doesinger is not separated by [at]
+
+** Library Upgrade
+    * [OPENENGSB-1622] - Upgrade to openengsb-maven-plugin-1.4.2
+    * [OPENENGSB-1625] - Upgrade maven-deploy-plugin to 2.6
+    * [OPENENGSB-1722] - Upgrade maven-plugin-plugin to 2.8
+    * [OPENENGSB-1724] - Upgrade maven-notice-plugin to 1.0.4
+    * [OPENENGSB-1726] - upgrade to maven-surefire-plugin 2.9
+    * [OPENENGSB-1727] - Upgrade maven-surefire-report-plugin to 2.9
+
+** Task
+    * [OPENENGSB-1583] - Release openengsb-root-18
+    * [OPENENGSB-1668] - add Christoph Hochreiner as contributor
+    * [OPENENGSB-1689] - Update email of Andreas Pieber
+    * [OPENENGSB-1721] - Add Richard Holzeis as Contributor
+
+
 openengsb-root-17 2011-05-16
 -------------------------------------------
 

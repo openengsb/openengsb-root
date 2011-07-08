@@ -149,6 +149,15 @@
       </roles>
     </developer>
     <developer>
+      <id>SoFabian</id>
+      <name>Fabian Souczek</name>
+      <email>e0728541 [at] student.tuwien.ac.at</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Commiter</role>
+      </roles>
+    </developer>
+    <developer>
       <id>esz</id>
       <name>Eduard Szente</name>
       <email>eduard.szente [at] gmail.com</email>
@@ -282,11 +291,6 @@
     <contributor>
       <name>Lukas Stampf</name>
       <email>lukas.stampf [at] gmx.at</email>
-      <timezone>+1</timezone>
-    </contributor>
-    <contributor>
-      <name>Fabian Souczek</name>
-      <email>e0728541 [at] student.tuwien.ac.at</email>
       <timezone>+1</timezone>
     </contributor>
     <contributor>

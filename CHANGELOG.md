@@ -1,3 +1,22 @@
+openengsb-root-19 2011-07-13
+-------------------------------------------
+
+Minor release updating various plugins, including a new version of the openengsb-maven-plugin (1.5.0) and of the 
+release-plugin (1.7). In additoin Fabian had been added as a commiter and Xiaolin as contributor.
+
+** Library Upgrade
+    * [OPENENGSB-1765] - Upgrade openengsb-maven-plugin to 1.5.0
+    * [OPENENGSB-1821] - Upgrade org.apache.felix:maven-bundle-plugin to 2.3.5
+    * [OPENENGSB-1822] - Upgrade maven-dependency-plugin to 2.3
+    * [OPENENGSB-1823] - Upgrade maven-release-plugin to 2.2
+    * [OPENENGSB-1824] - Upgrade org.codehaus.mojo:build-helper-maven-plugin to 1.7
+
+** Task
+    * [OPENENGSB-1729] - Release openengsb-root-19
+    * [OPENENGSB-1777] - Add fabian as commiter
+    * [OPENENGSB-1801] - Add Xiaolin Zhang as contributor
+
+
 openengsb-root-18 2011-06-18
 -------------------------------------------
 

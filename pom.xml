@@ -515,13 +515,6 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    <repository> <!-- for jboss-drools and its dependencies -->
-      <id>jboss</id>
-      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
     <repository> <!-- various prewrapped -->
       <id>com.springsource.repository.bundles.external</id>
       <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>

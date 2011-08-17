@@ -1,3 +1,26 @@
+openengsb-root-20 2011-08-17
+-------------------------------------------
+
+Finally the contributor/commiter are removed from this pom again. In addition the maven enforcer (1.0.1) and release 
+plugin (2.2.1) had been added. The OpenEngSB Maven plugin had been upgraded to 1.5.1 and the maven site plugin to 3.0.
+
+** Bug
+    * [OPENENGSB-1918] - Remove developer and contributor from openengsb-root to openengsb
+
+** Library Upgrade
+    * [OPENENGSB-1892] - Upgrade openengsb-maven-plugin to 1.5.1
+    * [OPENENGSB-1922] - Upgrade maven-enforcer-plugin to 1.0.1
+    * [OPENENGSB-1923] - Upgrade maven-release-plugin to 2.2.1
+    * [OPENENGSB-1924] - Upgrade maven-site-plugin to 3.0
+
+** New Feature
+    * [OPENENGSB-1919] - Include maven-enforcer-plugin
+    * [OPENENGSB-1920] - Include maven-release-plugin
+
+** Task
+    * [OPENENGSB-1825] - Release openengsb-root-20
+
+
 openengsb-root-19 2011-07-13
 -------------------------------------------
 

@@ -106,6 +106,19 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.apache.servicemix.tooling</groupId>
+          <artifactId>depends-maven-plugin</artifactId>
+          <version>1.1</version>
+          <executions>
+            <execution>
+              <id>generate-depends-file</id>
+              <goals>
+                <goal>generate-depends-file</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
           <groupId>org.openengsb</groupId>
           <artifactId>openengsb-maven-plugin</artifactId>
           <version>1.5.1</version>
@@ -116,9 +129,23 @@
           <version>1.0.4</version>
         </plugin>
         <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>openjpa-maven-plugin</artifactId>
+          <version>1.2</version>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
           <version>2.1.2</version>
+        </plugin>
+        <!--
+            Version 2.6 is required here because of a bug in 2.7.
+            The issue is MCHECKSTYLE-159; may be fixed in 2.8.
+        -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>2.6</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

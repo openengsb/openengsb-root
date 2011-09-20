@@ -91,6 +91,7 @@
         <version>3.0</version>
         <extensions>true</extensions>
       </plugin>
+      <!-- 2.7 and 2.8 have a bug; cant upgrade before 2.9 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-eclipse-plugin</artifactId>

@@ -1,9 +1,29 @@
+openengsb-root-21 2011-09-20
+-------------------------------------------
+
+In summary we've fixed 7 issues in this release. It contains a new maven plugin finally also under semantic versioning. 
+In addition various plugin upgrades had been added such as for the maven-deploy-plugin or maven-jar-plugin.
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-2044] - Upgrade to openengsb-maven-plugin-2.0.0
+    * [OPENENGSB-2047] - Upgrade maven-plugin-plugin to 2.9
+    * [OPENENGSB-2048] - Upgrade maven-deploy-plugin to 2.7
+    * [OPENENGSB-2049] - Upgrade depends-maven-plugin to 1.2
+    * [OPENENGSB-2050] - Upgrade maven-jar-plugin to 2.3.2
+
+** Task
+    * [OPENENGSB-1925] - Release openengsb-root-21
+    * [OPENENGSB-2032] - Move some plugin versions to openengsb-root
+
+
 openengsb-root-20 2011-08-17
 -------------------------------------------
 
 Finally the contributor/commiter are removed from this pom again. In addition the maven enforcer (1.0.1) and release 
 plugin (2.2.1) had been added. The OpenEngSB Maven plugin had been upgraded to 1.5.1 and the maven site plugin to 3.0.
 
+### Details
 ** Bug
     * [OPENENGSB-1918] - Remove developer and contributor from openengsb-root to openengsb
 
@@ -27,6 +47,7 @@ openengsb-root-19 2011-07-13
 Minor release updating various plugins, including a new version of the openengsb-maven-plugin (1.5.0) and of the 
 release-plugin (1.7). In additoin Fabian had been added as a commiter and Xiaolin as contributor.
 
+### Details
 ** Library Upgrade
     * [OPENENGSB-1765] - Upgrade openengsb-maven-plugin to 1.5.0
     * [OPENENGSB-1821] - Upgrade org.apache.felix:maven-bundle-plugin to 2.3.5
@@ -46,6 +67,7 @@ openengsb-root-18 2011-06-18
 Minor release updating various plugins, including a new version of the openengsb-maven-plugin (1.4.2) fixing problems
 in various goals. In addition the contributor/commiter list had been updated.
 
+### Details
 ** Bug
     * [OPENENGSB-1691] - Stefan Doesinger is not separated by [at]
 
@@ -69,6 +91,7 @@ openengsb-root-17 2011-05-16
 
 Fixed eclipse plugin bug
 
+### Details
 ** Bug
     * [OPENENGSB-1584] - eclipse-plugin 1.8 has problems with filer/non-filter in resources
 
@@ -130,7 +153,6 @@ openengsb-root-13 2011-03-24
 Upgrade to latest openengsb-maven-plugin
 
 ### Details
-
 ** Library Upgrade
     * [OPENENGSB-1150] - upgrade to openengsb-maven-plugin 1.3.3 stable
 

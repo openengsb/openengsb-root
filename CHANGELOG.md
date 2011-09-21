@@ -1,3 +1,20 @@
+openengsb-root-22 2011-09-21
+-------------------------------------------
+
+In this version we moved various plugins from the maven-plugin into the root plugin and also upgraded the version
+of the openengsb-maven-plugin to 2.1.0.
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-2077] - Upgrade to openengsb-maven-plugin 2.1.0
+
+** Task
+    * [OPENENGSB-2056] - Release openengsb-root-22
+    * [OPENENGSB-2078] - Include com.mycila.maven-license-plugin
+    * [OPENENGSB-2079] - Include com.agilejava.docbkx plugin
+    * [OPENENGSB-2080] - Include net.sourceforge.docbook-utils.maven-plugin
+
+
 openengsb-root-21 2011-09-20
 -------------------------------------------
 

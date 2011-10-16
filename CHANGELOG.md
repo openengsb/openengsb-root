@@ -1,3 +1,21 @@
+openengsb-root-23 2011-10-16
+-------------------------------------------
+
+Upgraded sonatype oss-parent to version 7. This should fix various problems during the release. In addition the 
+versions had been adapted according to the oss-parent. In addition we've upgraded the surefire and the license
+plugin.
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-2141] - Upgrade to sonatype oss-parent 7
+    * [OPENENGSB-2210] - Upgrade com.mycila.maven-license-plugin:maven-license-plugin  1.9.0 -> 1.10.b1
+    * [OPENENGSB-2212] - maven-surefire-plugin 2.9 -> 2.10
+    * [OPENENGSB-2213] - maven-surefire-report-plugin 2.9 -> 2.10
+
+** Task
+    * [OPENENGSB-2081] - Release openengsb-root-23
+
+
 openengsb-root-22 2011-09-21
 -------------------------------------------
 

@@ -1,3 +1,17 @@
+openengsb-root-24 2011-10-17
+-------------------------------------------
+
+Because of a conflice between the maven-source-plugin and the maven-bundle-plugin we had to downgrade the
+maven-bundle-plugin to 2.3.4
+
+### Details
+** Bug
+    * [OPENENGSB-2226] - maven-bundle-plugin 2.3.5 is not compatible with source plugin --> downgrade to 2.3.4
+
+** Task
+    * [OPENENGSB-2214] - Release openengsb-root-24
+
+
 openengsb-root-23 2011-10-16
 -------------------------------------------
 

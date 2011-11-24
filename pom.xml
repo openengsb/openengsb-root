@@ -209,6 +209,7 @@
           <artifactId>maven-antrun-plugin</artifactId>
           <version>1.7</version>
         </plugin>
+        <!-- Version 2.3.5 is NOT usable; there's a souce bug fixed in 2.3.6 -->
         <plugin>
           <groupId>org.apache.felix</groupId>
           <artifactId>maven-bundle-plugin</artifactId>

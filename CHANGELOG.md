@@ -1,3 +1,26 @@
+openengsb-root-25 2011-11-25
+-------------------------------------------
+
+The 25th release of the openengsb root project contains 7 improvements and library upgrades. In detail we've finally 
+upgraded the openengsb (2.2.0), the checkystle (2.8), shade (1.5) and antrun (1.7) maven plugins. In addition various
+comments documenting the root had been corrected. Finally we've removed no longer repositories which should make
+the build process faster.
+
+### Details
+** Improvement
+    * [OPENENGSB-2305] - Add comment why we couldn't upgrade to 2.3.5 of the maven-bundle-plugin
+    * [OPENENGSB-2306] - Remove no longer required maven-default-skin repo
+
+** Library Upgrade
+    * [OPENENGSB-2250] - Upgrade openengsb-maven-plugin to 2.2.0
+    * [OPENENGSB-2302] - Upgrade maven-checkstyle-plugin 2.6 -> 2.8
+    * [OPENENGSB-2303] - Upgrade maven-shade-plugin 1.4 -> 1.5
+    * [OPENENGSB-2304] - Upgrade maven-antrun-plugin 1.6 -> 1.7
+
+** Task
+    * [OPENENGSB-2225] - Release openengsb-root-25
+
+
 openengsb-root-24 2011-10-17
 -------------------------------------------
 

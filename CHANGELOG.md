@@ -1,3 +1,16 @@
+openengsb-root-26 2011-11-30
+-------------------------------------------
+
+The 25th version of the openengsb-root pom file contains only one change, but which is in it's own account quite
+important since it supports a problemless interaction with the m2e eclipse plugin.
+
+### Details
+** Improvement
+    * [OPENENGSB-2309] - Support the use of m2e
+
+** Task
+    * [OPENENGSB-2307] - Release openengsb-root-26
+
 openengsb-root-25 2011-11-25
 -------------------------------------------
 

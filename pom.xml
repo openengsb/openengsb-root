@@ -275,6 +275,19 @@
                     <ignore />
                   </action>
                 </pluginExecution>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>org.openengsb</groupId>
+                    <artifactId>openengsb-maven-plugin</artifactId>
+                    <versionRange>[2.2.0,)</versionRange>
+                    <goals>
+                      <goal>extractSource</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore></ignore>
+                  </action>
+                </pluginExecution>
               </pluginExecutions>
             </lifecycleMappingMetadata>
           </configuration>

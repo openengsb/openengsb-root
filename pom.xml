@@ -18,7 +18,8 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <parent>
     <groupId>org.sonatype.oss</groupId>
@@ -248,7 +249,8 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>2.2.2</version>
         </plugin>
-        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build 
+          itself. -->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>
           <artifactId>lifecycle-mapping</artifactId>
@@ -286,7 +288,7 @@
                   <pluginExecutionFilter>
                     <groupId>org.openengsb</groupId>
                     <artifactId>openengsb-maven-plugin</artifactId>
-                    <versionRange>[2.2.0,)</versionRange>
+                    <versionRange>[2.0,)</versionRange>
                     <goals>
                       <goal>extractSource</goal>
                     </goals>

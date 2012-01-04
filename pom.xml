@@ -45,23 +45,11 @@
     </license>
   </licenses>
 
-  <inceptionYear>2009</inceptionYear>
-
   <scm>
     <connection>scm:git:git://github.com/openengsb/openengsb-root.git</connection>
     <developerConnection>scm:git:git@github.com:openengsb/openengsb-root.git</developerConnection>
     <url>http://github.com/openengsb/openengsb-root</url>
   </scm>
-
-  <issueManagement>
-    <system>JIRA</system>
-    <url>http://issues.openengsb.org/jira/browse/OPENENGSB</url>
-  </issueManagement>
-
-  <ciManagement>
-    <system>OpenCIT</system>
-    <url>http://build.openengsb.org/opencit/</url>
-  </ciManagement>
 
   <properties>
     <docbkx.version>2.0.13</docbkx.version>

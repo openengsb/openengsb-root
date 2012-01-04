@@ -116,6 +116,18 @@
           <workspaceCodeStylesURL>https://github.com/openengsb/openengsb/raw/master/etc/eclipse/formatter.xml</workspaceCodeStylesURL>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.2.2</version>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <useReleaseProfile>false</useReleaseProfile>
+          <pushChanges>false</pushChanges>
+          <arguments>-Psonatype-oss-release -DpushChanges=false</arguments>
+          <preparationGoals>clean install -Dmaven.test.skip=true</preparationGoals>
+        </configuration>
+      </plugin>
     </plugins>
     <pluginManagement>
       <plugins>
@@ -243,11 +255,7 @@
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>1.0.1</version>
         </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.2.2</version>
-        </plugin>
+        
         <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build 
           itself. -->
         <plugin>

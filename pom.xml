@@ -422,6 +422,17 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository> <!-- OEB snapshots are deployed here -->
+      <id>sonatype-snapshots</id>
+      <name>Sonaype Snapsht Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
     <repository> <!-- required for karaf snapshot builds -->
       <id>apache.snapshots</id>
       <name>Apache Public Repository</name>

@@ -484,11 +484,6 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    <repository> <!-- Third party lib repository -->
-      <id>thirdparty</id>
-      <name>OpenEngSB Third Party</name>
-      <url>http://maven.openengsb.org/nexus/content/repositories/thirdparty</url>
-    </repository>
   </repositories>
 
 </project>

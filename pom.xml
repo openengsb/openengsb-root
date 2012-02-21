@@ -52,7 +52,7 @@
   </scm>
 
   <properties>
-    <docbkx.version>2.0.13</docbkx.version>
+    <docbkx.version>2.0.14</docbkx.version>
     <docbkx.xml.version>5.0-all</docbkx.xml.version>
     <jai.version>1.1.3</jai.version>
   </properties>

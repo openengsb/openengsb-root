@@ -1,3 +1,25 @@
+openengsb-root-32 2012-03-02
+-------------------------------------------
+
+The 32th release of the OpenEngSB root pom includes the version handling of the axis2-java2wsdl-maven-plugin 
+required starting from openengsb-framework-2.4.2. In addition a bug-fix upgrade to the checkstyle (2.9.1) had
+been included.
+
+### Details  
+** Library Upgrade
+    * [OPENENGSB-2781] - Upgrade maven-checkstyle-plugin to 2.9.1
+
+** New Feature
+    * [OPENENGSB-2780] - Include version of axis2-java2wsdl-maven-plugin
+
+** Task
+    * [OPENENGSB-2753] - Release openengsb-root-32
+
+### Known Issues
+
+Non by now.
+
+
 openengsb-root-31 2012-02-21
 -------------------------------------------
 

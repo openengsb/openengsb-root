@@ -1,3 +1,20 @@
+openengsb-root-33 2012-04-19
+-------------------------------------------
+
+The 33th release of OpenEngSB root pom focuses on fixes the assembly problem we had by downgrading to
+version 2.2.2 of the maven-assembly-plugin
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-2942] - Downgrade maven assembly plugin to 2.2.2
+
+** Task
+    * [OPENENGSB-2779] - Release openengsb-root-33
+
+### Known Issues
+    * [OPENENGSB-2805] - maven-jar-plugin produces crappy output
+
+
 openengsb-root-32 2012-03-02
 -------------------------------------------
 

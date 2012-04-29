@@ -89,6 +89,13 @@
           <meminitial>128m</meminitial>
           <maxmem>512m</maxmem>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId> 
+            <artifactId>plexus-compiler-javac</artifactId>
+            <version>1.8.6</version>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

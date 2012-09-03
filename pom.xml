@@ -258,7 +258,7 @@
           <extensions>true</extensions>
           <configuration>
             <instructions>
-              <Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
+              <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
             </instructions>
             <wrapImportPackage>false</wrapImportPackage>
           </configuration>

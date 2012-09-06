@@ -66,6 +66,7 @@
     <junit.version>4.8.2</junit.version>
     <mockito.version>1.8.5</mockito.version>
     <slf4j.version>1.6.4</slf4j.version>
+	<gpg.useagent>true</gpg.useagent>
   </properties>
 
   <prerequisites>
@@ -126,7 +127,7 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <useReleaseProfile>false</useReleaseProfile>
           <pushChanges>false</pushChanges>
-          <arguments>-Psonatype-oss-release -DpushChanges=false</arguments>
+          <arguments>-Psonatype-oss-release -DpushChanges=false -Dgpg.useagent=${gpg.useagent}</arguments>
           <preparationGoals>clean install -Dmaven.test.skip=true</preparationGoals>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>

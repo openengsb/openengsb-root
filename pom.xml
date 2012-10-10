@@ -59,7 +59,7 @@
     <labs.delegation.version>0.1.0</labs.delegation.version>
     <guava.version>11.0.2</guava.version>
     <org.osgi.core.version>3.0.0-SNAPSHOT</org.osgi.core.version>
-    <org.osgi.compendium.version>4.2.0</org.osgi.compendium.version>
+    <org.osgi.compendium.version>3.0.0-SNAPSHOT</org.osgi.compendium.version>
     <commons.lang.version>2.6</commons.lang.version>
     <commons.io.version>2.1</commons.io.version>
     <commons.collections.version>3.2.1</commons.collections.version>
@@ -370,7 +370,7 @@
         <version>${org.osgi.core.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.osgi</groupId>
+        <groupId>org.apache.karaf</groupId>
         <artifactId>org.osgi.compendium</artifactId>
         <version>${org.osgi.compendium.version}</version>
       </dependency>

@@ -475,6 +475,17 @@
         <checksumPolicy>warn</checksumPolicy>
       </releases>
     </pluginRepository>
+    <pluginRepository>
+      <id>aduna</id>
+      <name>Aduna maven Repository</name> <!-- for openrdf, required by npanday -->
+      <url>http://repository.aduna-software.org/maven2/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
   </pluginRepositories>
 
   <repositories>

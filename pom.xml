@@ -74,6 +74,15 @@
     <maven>3.0.0</maven>
   </prerequisites>
 
+  <developers>
+    <developer>
+      <id>openengsb</id>
+      <name>OpenEngSB Development Team</name>
+      <email>openengsb-dev@googlegroups.com</email>
+      <url>http://requirements.openengsb.org/confluence/display/WWW/Team</url>
+    </developer>
+  </developers>
+
   <build>
     <extensions>
       <extension>

@@ -242,6 +242,12 @@
           <version>2.4</version>
           <configuration>
             <skipIfEmpty>true</skipIfEmpty>
+            <archive>
+              <manifest>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              </manifest>
+            </archive>
           </configuration>
         </plugin>
         <plugin>

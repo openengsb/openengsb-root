@@ -454,7 +454,7 @@
                       <groupId>org.apache.maven.plugins</groupId>
                       <artifactId>maven-checkstyle-plugin</artifactId>
                       <configuration>
-                          <configLocation>/home/pieber/Projects/openengsb/parents/root/etc/checkstyle/checkstyle.xml</configLocation>
+                          <configLocation>https://raw.github.com/openengsb/openengsb-root/master/etc/checkstyle/checkstyle.xml</configLocation>
                           <consoleOutput>true</consoleOutput>
                           <enableRulesSummary>true</enableRulesSummary>
                           <failsOnError>true</failsOnError>

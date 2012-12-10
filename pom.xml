@@ -18,7 +18,8 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -146,6 +147,11 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>com.mycila.maven-license-plugin</groupId>
+          <artifactId>maven-license-plugin</artifactId>
+          <version>1.10.b1</version>
+        </plugin>
+        <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
           <version>1.0-beta-3</version>
@@ -192,11 +198,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>2.9.1</version>
-        </plugin>
-        <plugin>
-          <groupId>com.mycila.maven-license-plugin</groupId>
-          <artifactId>maven-license-plugin</artifactId>
-          <version>1.10.b1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -252,7 +253,7 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>2.4.1</version>
         </plugin>
-        <!-- 
+        <!--
              !!!DO NOT UPGRADE TO 2.3!!!
              The 2.3 version of the plugin has a critical bug with its permission in
              zip files making it unusable! [MASSEMBLY-557]
@@ -294,7 +295,7 @@
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>1.0.1</version>
         </plugin>
-        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build 
+        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build
           itself. -->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>
@@ -313,7 +314,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -326,7 +327,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -339,7 +340,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -352,7 +353,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -366,7 +367,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -443,33 +444,95 @@
   </dependencyManagement>
 
   <profiles>
-      <profile>
-          <id>checkstyle</id>
-          <build>
-              <plugins>
-                  <plugin>
-                      <groupId>org.apache.maven.plugins</groupId>
-                      <artifactId>maven-checkstyle-plugin</artifactId>
-                      <configuration>
-                          <configLocation>https://raw.github.com/openengsb/openengsb-root/master/etc/checkstyle/checkstyle.xml</configLocation>
-                          <consoleOutput>true</consoleOutput>
-                          <enableRulesSummary>true</enableRulesSummary>
-                          <failsOnError>true</failsOnError>
-                          <includeTestSourceDirectory>true</includeTestSourceDirectory>
-                      </configuration>
-                      <executions>
-                          <execution>
-                              <id>check</id>
-                              <phase>verify</phase>
-                              <goals>
-                                  <goal>checkstyle</goal>
-                              </goals>
-                          </execution>
-                      </executions>
-                  </plugin>
-              </plugins>
-          </build>
-      </profile>
+    <profile>
+      <id>checkstyle</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <configuration>
+              <configLocation>https://raw.github.com/openengsb/openengsb-root/master/etc/checkstyle/checkstyle.xml</configLocation>
+              <consoleOutput>true</consoleOutput>
+              <enableRulesSummary>true</enableRulesSummary>
+              <failsOnError>true</failsOnError>
+              <includeTestSourceDirectory>true</includeTestSourceDirectory>
+            </configuration>
+            <executions>
+              <execution>
+                <id>check</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>checkstyle</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>licenseCheck</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.mycila.maven-license-plugin</groupId>
+            <artifactId>maven-license-plugin</artifactId>
+            <configuration>
+              <header>https://raw.github.com/openengsb/openengsb-root/master/etc/license/header.txt</header>
+              <failIfMissing>true</failIfMissing>
+              <aggregate>true</aggregate>
+              <strictCheck>true</strictCheck>
+              <excludes>
+                <exclude>docs/examples/**/*.config</exclude>
+                <exclude>etc/eclipse/checkstyle.xml</exclude>
+                <exclude>etc/license/header.txt</exclude>
+                <exclude>license.txt</exclude>
+                <exclude>**/*.vm</exclude>
+                <exclude>**/license.txt</exclude>
+                <exclude>runner/**</exclude>
+                <exclude>assembly/runner/**</exclude>
+                <exclude>features/**</exclude>
+                <exclude>NOTICE</exclude>
+                <exclude>**/*.3pm</exclude>
+                <exclude>**/*.dll</exclude>
+                <exclude>**/*.pdb</exclude>
+                <exclude>**/*.pdf</exclude>
+                <exclude>**/LICENSE</exclude>
+                <exclude>**/*checkstyle.xml</exclude>
+                <exclude>**/*.log.*</exclude>
+                <exclude>**/*.log</exclude>
+                <exclude>**/*.packlist</exclude>
+                <exclude>**/*.pod</exclude>
+                <exclude>**/imports</exclude>
+                <exclude>**/globals</exclude>
+                <exclude>**/.keep</exclude>
+                <exclude>**/EngSB.sln</exclude>
+                <exclude>**/nb-configuration.xml</exclude>
+                <exclude>**/*.checkstyle</exclude>
+                <exclude>**/*.rf</exclude>
+                <exclude>.idea/**</exclude>
+                <exclude>atlassian-ide-plugin.xml</exclude>
+              </excludes>
+              <mapping>
+                <bnd>SCRIPT_STYLE</bnd>
+                <drl>SCRIPT_STYLE</drl>
+                <index>SCRIPT_STYLE</index>
+                <gitignore>SCRIPT_STYLE</gitignore>
+                <cfg>SCRIPT_STYLE</cfg>
+                <wsdl>XML_STYLE</wsdl>
+                <csproj>XML_STYLE</csproj>
+                <rf>XML_STYLE</rf>
+                <composite>SCRIPT_STYLE</composite>
+                <config>XML_STYLE</config>
+                <script>DOUBLESLASH_STYLE</script>
+                <rule>SCRIPT_STYLE</rule>
+              </mapping>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
   </profiles>
 
   <pluginRepositories>
@@ -522,7 +585,8 @@
     </pluginRepository>
     <pluginRepository>
       <id>aduna</id>
-      <name>Aduna maven Repository</name> <!-- for openrdf, required by npanday -->
+      <name>Aduna maven Repository</name>
+      <!-- for openrdf, required by npanday -->
       <url>http://repository.aduna-software.org/maven2/</url>
       <releases>
         <enabled>true</enabled>

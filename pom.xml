@@ -61,6 +61,7 @@
     <docbkx.xml.version>5.0-all</docbkx.xml.version>
     <jai.version>1.1.3</jai.version>
     <labs.delegation.version>0.1.1-SNAPSHOT</labs.delegation.version>
+    <labs.liquibase.version>1.0.0-SNAPSHOT</labs.liquibase.version>
     <guava.version>13.0.1</guava.version>
     <org.osgi.core.version>4.3.1</org.osgi.core.version>
     <org.osgi.compendium.version>4.3.1</org.osgi.compendium.version>
@@ -400,6 +401,18 @@
         <groupId>org.openengsb.labs.delegation</groupId>
         <artifactId>org.openengsb.labs.delegation.service</artifactId>
         <version>${labs.delegation.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openengsb.labs.liquibase</groupId>
+        <artifactId>features</artifactId>
+        <version>${labs.liquibase.version}</version>
+        <type>xml</type>
+        <classifier>features</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.openengsb.labs.liquibase</groupId>
+        <artifactId>org.openengsb.labs.liquibase.extender</artifactId>
+        <version>${labs.liquibase.version}</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>

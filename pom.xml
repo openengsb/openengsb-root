@@ -57,9 +57,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <docbkx.version>2.0.14</docbkx.version>
-    <docbkx.xml.version>5.0-all</docbkx.xml.version>
-    <jai.version>1.1.3</jai.version>
     <labs.delegation.version>0.1.1-SNAPSHOT</labs.delegation.version>
     <labs.liquibase.version>1.0.0-SNAPSHOT</labs.liquibase.version>
     <guava.version>13.0.1</guava.version>
@@ -169,11 +166,6 @@
           <version>1.0-beta-3</version>
         </plugin>
         <plugin>
-          <groupId>com.agilejava.docbkx</groupId>
-          <artifactId>docbkx-maven-plugin</artifactId>
-          <version>${docbkx.version}</version>
-        </plugin>
-        <plugin>
           <groupId>org.apache.servicemix.tooling</groupId>
           <artifactId>depends-maven-plugin</artifactId>
           <version>1.2</version>
@@ -235,11 +227,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-shade-plugin</artifactId>
           <version>1.5</version>
-        </plugin>
-        <plugin>
-          <groupId>net.sourceforge.docbook-utils.maven-plugin</groupId>
-          <artifactId>maven-tidy-plugin</artifactId>
-          <version>1.0.0.beta-1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -357,20 +344,6 @@
                     <versionRange>[2.4,)</versionRange>
                     <goals>
                       <goal>java2ws</goal>
-                    </goals>
-                  </pluginExecutionFilter>
-                  <action>
-                    <ignore/>
-                  </action>
-                </pluginExecution>
-                <pluginExecution>
-                  <pluginExecutionFilter>
-                    <groupId>com.agilejava.docbkx</groupId>
-                    <artifactId>docbkx-maven-plugin</artifactId>
-                    <versionRange>[2.0,)</versionRange>
-                    <goals>
-                      <goal>generate-pdf</goal>
-                      <goal>generate-html</goal>
                     </goals>
                   </pluginExecutionFilter>
                   <action>
@@ -581,26 +554,10 @@
       <name>twdata.org Maven 2 Repository</name>
       <url>http://twdata-m2-repository.googlecode.com/svn/</url>
     </pluginRepository>
-    <pluginRepository>
-      <id>jai.repository</id>
-      <name>JAI Repository (indirectly used by Docbook plugin)</name>
-      <url>https://m2proxy.atlassian.com/repository/public</url>
-    </pluginRepository>
     <pluginRepository> <!-- required for karaf snapshot builds -->
       <id>apache.snapshots</id>
       <name>Apache Public Repository</name>
       <url>https://repository.apache.org/content/repositories/snapshots/</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>docbook-utils</id>
-      <name>DocBook Utils</name>
-      <url>http://docbook-utils.sourceforge.net/maven2</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </releases>
     </pluginRepository>
     <pluginRepository>
       <id>aduna</id>

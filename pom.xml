@@ -59,6 +59,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <labs.delegation.version>0.1.1-SNAPSHOT</labs.delegation.version>
     <labs.liquibase.version>1.0.0-SNAPSHOT</labs.liquibase.version>
+    <labs.jpatest.version>0.1.0-SNAPSHOT</labs.jpatest.version>
     <guava.version>13.0.1</guava.version>
     <org.osgi.core.version>4.3.1</org.osgi.core.version>
     <org.osgi.compendium.version>4.3.1</org.osgi.compendium.version>
@@ -386,6 +387,11 @@
         <groupId>org.openengsb.labs.liquibase</groupId>
         <artifactId>org.openengsb.labs.liquibase.extender</artifactId>
         <version>${labs.liquibase.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openengsb.labs.jpatest</groupId>
+        <artifactId>labs-jpatest-core</artifactId>
+        <version>${labs.jpatest.version}</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>

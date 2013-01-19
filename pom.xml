@@ -392,6 +392,7 @@
         <groupId>org.openengsb.labs.jpatest</groupId>
         <artifactId>labs-jpatest-core</artifactId>
         <version>${labs.jpatest.version}</version>
+        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>

@@ -57,9 +57,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <labs.delegation.version>0.1.1-SNAPSHOT</labs.delegation.version>
-    <labs.liquibase.version>1.0.0-SNAPSHOT</labs.liquibase.version>
-    <labs.jpatest.version>0.1.0-SNAPSHOT</labs.jpatest.version>
+    <labs.delegation.version>0.1.0</labs.delegation.version>
+    <labs.liquibase.version>0.1.0</labs.liquibase.version>
+    <labs.jpatest.version>0.1.0</labs.jpatest.version>
     <guava.version>13.0.1</guava.version>
     <org.osgi.core.version>4.3.1</org.osgi.core.version>
     <org.osgi.compendium.version>4.3.1</org.osgi.compendium.version>

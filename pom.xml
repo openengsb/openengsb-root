@@ -1416,6 +1416,15 @@
           <plugin>
             <groupId>com.mycila.maven-license-plugin</groupId>
             <artifactId>maven-license-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>check</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>check</goal>
+                </goals>
+              </execution>
+            </executions>
             <configuration>
               <header>https://raw.github.com/openengsb/openengsb-root/master/etc/license/header.txt</header>
               <failIfMissing>true</failIfMissing>

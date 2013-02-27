@@ -1332,11 +1332,6 @@
         <version>${xmlunit.version}</version>
         <scope>test</scope>
       </dependency>
-      <dependency>
-        <groupId>org.openengsb</groupId>
-        <artifactId>openengsb-root</artifactId>
-        <version>${root.version}</version>
-      </dependency>
       <!-- LDAP DEPENDENCIES -->
       <dependency>
         <groupId>org.apache.directory.server</groupId>

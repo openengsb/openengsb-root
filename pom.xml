@@ -269,11 +269,6 @@
           </executions>
         </plugin>
         <plugin>
-          <groupId>org.apache.axis2</groupId>
-          <artifactId>axis2-java2wsdl-maven-plugin</artifactId>
-          <version>1.6.1</version>
-        </plugin>
-        <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>openjpa-maven-plugin</artifactId>
           <version>1.2</version>
@@ -437,7 +432,7 @@
                   <pluginExecutionFilter>
                     <groupId>org.apache.cxf</groupId>
                     <artifactId>cxf-java2ws-plugin</artifactId>
-                    <versionRange>[2.4,)</versionRange>
+                    <versionRange>[2.7,)</versionRange>
                     <goals>
                       <goal>java2ws</goal>
                     </goals>
@@ -1537,4 +1532,3 @@
     </repository>
   </repositories>
 </project>
-

@@ -227,7 +227,7 @@
           <useReleaseProfile>false</useReleaseProfile>
           <pushChanges>false</pushChanges>
           <arguments>-Psonatype-oss-release -DpushChanges=false -Dgpg.useagent=${gpg.useagent}</arguments>
-          <preparationGoals>clean install -Dmaven.test.skip=true</preparationGoals>
+          <preparationGoals>clean install -DskipTests</preparationGoals>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
       </plugin>

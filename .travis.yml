@@ -1,4 +1,6 @@
 language: java
+before_install:
+  - echo "<settings></settings>" > ~/.m2/settings.xml
 script: mvn test license:check
 notifications:
   email:

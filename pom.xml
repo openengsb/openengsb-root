@@ -553,11 +553,6 @@
         <version>${labs.jpatest.version}</version>
         <scope>test</scope>
       </dependency>
-      <dependency>
-        <groupId>org.openengsb</groupId>
-        <artifactId>openengsb-assembly-builder-resources</artifactId>
-        <version>1.0.1</version>
-      </dependency>
       <!-- OpenEngSB wrapped -->
       <dependency>
         <groupId>org.openengsb.wrapped</groupId>

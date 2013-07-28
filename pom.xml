@@ -116,7 +116,7 @@
     <janino.version>2.5.15</janino.version>
     <jasypt.version>1.6_1</jasypt.version>
     <javax.inject.version>1_2</javax.inject.version> <!-- needed in assembly -->
-    <javax.mail.version>1.4.4</javax.mail.version>
+    <javax.mail.version>1.5.0</javax.mail.version>
     <javax.xmlrpc.version>1.1.0</javax.xmlrpc.version>
     <jaxb.wrapped.version>2.2.4_1</jaxb.wrapped.version>
     <jbpm.version>5.4.0.Final</jbpm.version>

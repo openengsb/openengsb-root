@@ -269,9 +269,9 @@
           </executions>
         </plugin>
         <plugin>
-          <groupId>org.codehaus.mojo</groupId>
+          <groupId>org.apache.openjpa</groupId>
           <artifactId>openjpa-maven-plugin</artifactId>
-          <version>1.2</version>
+          <version>2.2.2</version>
           <configuration>
             <addDefaultConstructor>true</addDefaultConstructor>
           </configuration>
@@ -404,9 +404,9 @@
               <pluginExecutions>
                 <pluginExecution>
                   <pluginExecutionFilter>
-                    <groupId>org.codehaus.mojo</groupId>
+                    <groupId>org.apache.openjpa</groupId>
                     <artifactId>openjpa-maven-plugin</artifactId>
-                    <versionRange>[1.2,)</versionRange>
+                    <versionRange>[2.2.2,)</versionRange>
                     <goals>
                       <goal>enhance</goal>
                     </goals>

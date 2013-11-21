@@ -112,7 +112,7 @@
     <htmlunit.version>2.8</htmlunit.version>
     <htmlunit.wrapped.version>${htmlunit.version}.w1</htmlunit.wrapped.version>
     <h2.version>1.3.163</h2.version>
-    <jackson2.version>2.1.1</jackson2.version>
+    <jackson2.version>2.2.2</jackson2.version>
     <janino.version>2.5.15</janino.version>
     <jasypt.version>1.6_1</jasypt.version>
     <javax.inject.version>1_2</javax.inject.version> <!-- needed in assembly -->
@@ -571,7 +571,7 @@
         <artifactId>org.apache.xmlrpc-all</artifactId>
         <version>${apache.xmlrpc.wrapped.version}</version>
       </dependency>
-      <!-- Libraray dependencies -->
+      <!-- Library dependencies -->
       <dependency>
         <groupId>aopalliance</groupId>
         <artifactId>aopalliance</artifactId>
@@ -585,6 +585,11 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
+        <version>${jackson2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-csv</artifactId>
         <version>${jackson2.version}</version>
       </dependency>
       <dependency>

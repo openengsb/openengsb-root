@@ -236,9 +236,9 @@
         <artifactId>maven-notice-plugin</artifactId>
         <version>1.0.5</version>
         <configuration>
-          <noticeTemplate>https://raw.github.com/openengsb/openengsb-framework/master/etc/notice/NOTICE.template</noticeTemplate>
+          <noticeTemplate>https://raw.github.com/openengsb/openengsb-root/master/etc/notice/NOTICE.template</noticeTemplate>
           <licenseMapping>
-            <param>https://raw.github.com/openengsb/openengsb-framework/master/etc/notice/license-mapping.xml</param>
+            <param>https://raw.github.com/openengsb/openengsb-root/master/etc/notice/license-mapping.xml</param>
           </licenseMapping>
         </configuration>
       </plugin>

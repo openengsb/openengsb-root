@@ -18,8 +18,7 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -32,7 +31,7 @@
   <groupId>org.openengsb</groupId>
   <artifactId>openengsb-root</artifactId>
   <packaging>pom</packaging>
-  <version>34-SNAPSHOT</version>
+  <version>34</version>
   
   <name>OpenEngSB :: Root</name>
   <description>
@@ -65,6 +64,7 @@
     <connection>scm:git:git@github.com:openengsb/openengsb-root.git</connection>
     <developerConnection>scm:git:git@github.com:openengsb/openengsb-root.git</developerConnection>
     <url>http://github.com/openengsb/openengsb-root</url>
+    <tag>v34</tag>
   </scm>
   
   <properties>
@@ -419,7 +419,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -432,7 +432,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -445,7 +445,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
                 <pluginExecution>

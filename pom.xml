@@ -62,7 +62,7 @@
   </prerequisites>
   
   <scm>
-    <connection>scm:git:git://github.com/openengsb/openengsb-root.git</connection>
+    <connection>scm:git:git@github.com:openengsb/openengsb-root.git</connection>
     <developerConnection>scm:git:git@github.com:openengsb/openengsb-root.git</developerConnection>
     <url>http://github.com/openengsb/openengsb-root</url>
   </scm>

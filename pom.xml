@@ -220,7 +220,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.4.1</version>
+        <version>2.5</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <useReleaseProfile>false</useReleaseProfile>
@@ -230,6 +230,13 @@
           <preparationGoals>clean install -DskipTests</preparationGoals>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-gitexe</artifactId>
+            <version>1.9</version>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.jasig.maven</groupId>

@@ -1430,18 +1430,6 @@
       <name>Apache Public Repository</name>
       <url>https://repository.apache.org/content/repositories/snapshots/</url>
     </pluginRepository>
-    <pluginRepository>
-      <id>aduna</id>
-      <name>Aduna maven Repository</name>
-      <!-- for openrdf, required by npanday -->
-      <url>http://repository.aduna-software.org/maven2/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
   </pluginRepositories>
 
   <repositories>

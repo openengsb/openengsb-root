@@ -1,3 +1,15 @@
+openengsb-root-35 2014-05-21
+-------------------------------------------
+
+The 35th release of OpenEngSB root pom fixes a show-stopper bug introduced with version 34. 
+
+### Details
+** Bug
+    * [OPENENGSB-3717] - orientdb 1.4.0+ causes EDBIT to fail
+
+** Library Upgrade
+    * [OPENENGSB-3718] - remove obsolete aduna pluginRepository
+
 openengsb-root-34 2014-03-28
 -------------------------------------------
 

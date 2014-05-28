@@ -398,6 +398,11 @@
         <license>MIT License</license>
     </artifact>
     <artifact>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <license>Apache License, Version 2.0</license>
+    </artifact>
+    <artifact>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
         <license>Apache License, Version 2.0</license>
@@ -781,6 +786,11 @@
         <groupId>javax.xml.stream</groupId>
         <artifactId>stax-api</artifactId>
         <license>Commons Development and Distribution License, Version 1.0</license>
+    </artifact>
+    <artifact>
+        <groupId>ldapsdk</groupId>
+        <artifactId>ldapsdk</artifactId>
+        <license>MPL 1.1</license>
     </artifact>
 </license-lookup>
 

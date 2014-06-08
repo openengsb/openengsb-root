@@ -792,5 +792,15 @@
         <artifactId>ldapsdk</artifactId>
         <license>MPL 1.1</license>
     </artifact>
+    <artifact>
+        <groupId>jline</groupId>
+        <artifactId>jline</artifactId>
+        <license>BSD</license>
+    </artifact>
+    <artifact>
+        <groupId>org.fusesource.jansi</groupId>
+        <artifactId>jansi</artifactId>
+        <license>Apache License, Version 2.0</license>
+    </artifact>
 </license-lookup>
 

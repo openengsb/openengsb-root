@@ -1395,6 +1395,7 @@
                 <config>XML_STYLE</config>
                 <script>DOUBLESLASH_STYLE</script>
                 <rule>SCRIPT_STYLE</rule>
+                <ldif>SCRIPT_STYLE</ldif>
               </mapping>
             </configuration>
           </plugin>

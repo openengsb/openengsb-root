@@ -1,3 +1,20 @@
+openengsb-root-3 2014-10-10
+-------------------------------------------
+
+The 36th release of OpenEngSB root pom upgrades a few libraries. 
+
+### Details
+** Improvement
+    * [OPENENGSB-3770] - Create license-plugin mapping for ldif
+
+** Library Upgrade
+    * [OPENENGSB-3750] - Add spring-jdbc dependency
+    * [OPENENGSB-3791] - Upgrade jackson libs to 2.4.1
+    * [OPENENGSB-3794] - upgrade maven-verifier to 1.5
+
+** New Feature
+    * [OPENENGSB-3798] - Add wrapped JIRA REST client version to the root
+
 openengsb-root-35 2014-05-21
 -------------------------------------------
 

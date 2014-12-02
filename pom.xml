@@ -390,6 +390,17 @@
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>1.2</version>
         </plugin>
+        <plugin>
+          <groupId>org.apache.cxf</groupId>
+          <artifactId>cxf-java2ws-plugin</artifactId>
+          <version>${cxf.version}</version>
+          <configuration>
+            <verbose>true</verbose>
+            <attachWsdl>true</attachWsdl>
+            <genWsdl>true</genWsdl>
+            <databinding>aegis</databinding>
+          </configuration>
+        </plugin>
         <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build
           itself. -->
         <plugin>

@@ -79,7 +79,7 @@
     <pax.web.version>3.0.0.M3</pax.web.version>
     <!-- Labs Versions -->
     <labs.delegation.version>0.1.0</labs.delegation.version>
-    <labs.liquibase.version>0.1.0</labs.liquibase.version>
+    <labs.liquibase.version>0.1.1</labs.liquibase.version>
     <labs.jpatest.version>0.1.0</labs.jpatest.version>
     <!-- also update below version in domain/example/pom.xml -->
     <aopalliance.version>1.0</aopalliance.version>
@@ -137,14 +137,14 @@
     <jira.rest.client.wrapped.version>2.0.0-m31.w1</jira.rest.client.wrapped.version>
     <joda.version>1.6.2</joda.version>
     <jsch.wrapped.version>0.1.44_2</jsch.wrapped.version>
-    <junit.version>4.8.2</junit.version>
+    <junit.version>4.10</junit.version>
     <ldap.server.version>2.0.0-M8</ldap.server.version>
     <ldap.shared.version>1.0.0-M13</ldap.shared.version>
     <maven.verifier.version>1.5</maven.verifier.version>
-    <mockito.version>1.8.5</mockito.version>
+    <mockito.version>1.9.5</mockito.version>
     <mvel2.version>2.1.3.Final</mvel2.version>
     <neethi.version>3.0.1</neethi.version>
-    <openjpa.version>2.2.1</openjpa.version>
+    <openjpa.version>2.2.2</openjpa.version>
     <opensaml.version>2.5.1_1</opensaml.version>
     <orientdb.version>1.2.0</orientdb.version>
     <org.osgi.core.version>4.3.1</org.osgi.core.version>
@@ -158,7 +158,7 @@
     <servicemix.aop.version>1.0_6</servicemix.aop.version>
     <servicemix.cglib.version>2.2.2_1</servicemix.cglib.version>
     <shiro.version>1.2.0</shiro.version>
-    <slf4j.version>1.6.4</slf4j.version>
+    <slf4j.version>1.7.2</slf4j.version>
     <smx.specs.version>2.0.0</smx.specs.version>
     <spring.version>3.1.2.RELEASE</spring.version>
     <spring.osgi.version>1.2.1</spring.osgi.version>
@@ -187,12 +187,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-deploy-plugin</artifactId>
-        <version>2.7</version>
+        <version>2.8.2</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.0</version>
+        <version>3.2</version>
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
@@ -215,7 +215,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.5</version>
+        <version>2.5.1</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <useReleaseProfile>false</useReleaseProfile>
@@ -229,14 +229,14 @@
           <dependency>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-provider-gitexe</artifactId>
-            <version>1.9</version>
+            <version>1.9.2</version>
           </dependency>
         </dependencies>
       </plugin>
       <plugin>
         <groupId>org.jasig.maven</groupId>
         <artifactId>maven-notice-plugin</artifactId>
-        <version>1.0.5</version>
+        <version>1.0.6</version>
         <configuration>
           <noticeTemplate>https://raw.github.com/openengsb/openengsb-root/master/etc/notice/NOTICE.template</noticeTemplate>
           <licenseMapping>
@@ -273,7 +273,7 @@
         <plugin>
           <groupId>org.apache.openjpa</groupId>
           <artifactId>openjpa-maven-plugin</artifactId>
-          <version>2.2.2</version>
+          <version>${openjpa.version}</version>
           <configuration>
             <addDefaultConstructor>true</addDefaultConstructor>
           </configuration>
@@ -307,37 +307,37 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>2.12</version>
+          <version>2.13</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
-          <version>1.7</version>
+          <version>1.9.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>2.6</version>
+          <version>2.7</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
-          <version>2.4</version>
+          <version>2.5.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.14</version>
+          <version>2.18</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>2.14</version>
+          <version>2.18</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>2.4</version>
+          <version>2.5</version>
           <configuration>
             <skipIfEmpty>true</skipIfEmpty>
             <archive>
@@ -351,7 +351,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>2.5</version>
+          <version>2.6.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -361,7 +361,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>2.8</version>
+          <version>2.9</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -378,17 +378,17 @@
             </instructions>
             <wrapImportPackage>false</wrapImportPackage>
           </configuration>
-          <version>2.3.7</version>
+          <version>2.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.2</version>
+          <version>3.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>1.2</version>
+          <version>1.3.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.cxf</groupId>

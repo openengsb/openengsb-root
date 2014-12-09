@@ -141,6 +141,8 @@
     <ldap.server.version>2.0.0-M8</ldap.server.version>
     <ldap.shared.version>1.0.0-M13</ldap.shared.version>
     <maven.verifier.version>1.5</maven.verifier.version>
+    <!-- Do not upgrade to 2.18 without carefully testing -->
+    <maven.surefire.version>2.14</maven.surefire.version>
     <mockito.version>1.9.5</mockito.version>
     <mvel2.version>2.1.3.Final</mvel2.version>
     <neethi.version>3.0.1</neethi.version>
@@ -327,12 +329,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.18</version>
+          <version>${maven.surefire.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>2.18</version>
+          <version>${maven.surefire.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

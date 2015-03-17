@@ -1,4 +1,27 @@
-openengsb-root-3 2014-10-10
+openengsb-root-37 2015-03-17
+-------------------------------------------
+
+The 37th release of OpenEngSB root pom sanitzes the pom, upgrades karaf and a few other libraries libraries.
+
+** Bug
+    * [OPENENGSB-3739] - Fix maven build stability issues
+    * [OPENENGSB-3864] - The userprojects JIRA connector fetches a wrong set of users from the JIRA server
+
+** Deprecation
+    * [OPENENGSB-3854] - Delete not used wagon maven plugin
+
+** Library Upgrade
+    * [OPENENGSB-3725] - Upgrade karaf to 3.0.2
+    * [OPENENGSB-3742] - Upgrade Karaf to 3.0.1
+    * [OPENENGSB-3847] - upgrade JIRA REST client to 2.0.0-m32.w1
+    * [OPENENGSB-3850] - Upgrade commons-io to 2.4 and commons-codec to 1.10
+    * [OPENENGSB-3853] - Update JIRA REST client dependency
+    * [OPENENGSB-3855] - Upgrade assembly plugin to 2.5.2 and commons compress to 1.9
+    * [OPENENGSB-3856] - Upgrade version dependencies where it makes sense
+    * [OPENENGSB-3863] - upgrade junit to 4.12
+    * [OPENENGSB-3865] - upgrade shiro to 1.2.3
+
+openengsb-root-36 2014-10-10
 -------------------------------------------
 
 The 36th release of OpenEngSB root pom upgrades a few libraries. 

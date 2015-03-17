@@ -138,7 +138,7 @@
     <jbpm.version>5.4.0.Final</jbpm.version>
     <jdom.version>1.1_4</jdom.version>
     <jettison.version>1.3</jettison.version> <!-- needed in assembly -->
-    <jira.rest.client.wrapped.version>2.0.0-m31.w1</jira.rest.client.wrapped.version>
+    <jira.rest.client.wrapped.version>2.0.0-m31.w2</jira.rest.client.wrapped.version>
     <joda.version>1.6.2</joda.version>
     <jsch.wrapped.version>0.1.44_2</jsch.wrapped.version>
     <junit.version>4.12</junit.version>
@@ -381,6 +381,7 @@
           <configuration>
             <instructions>
               <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+              <Bundle-Version>${project.version}</Bundle-Version>
             </instructions>
             <wrapImportPackage>false</wrapImportPackage>
           </configuration>
